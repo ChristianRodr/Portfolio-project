@@ -1,0 +1,137 @@
+:root {
+    --primary-color: #060144;
+    --secondary-color: #003d3f;
+    --background-color: #26edb8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--secondary-color);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background-color: var(--background-color);
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+footer {
+ background: var(--background-color);
+ width: 100%;
+ padding: 40px 35px;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+footer h2 {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin: 0;
+}
+
+
+.aboutme {
+
+}
+
+.aboutme h2 {
+
+}
+
+.aboutme p {
+
+}
+
+.work {
+
+}
+
+.work h2 { 
+
+}
+
+.work1 {
+
+}
+
+.work1 h3 {
+
+}
+
+.work1 p {
+
+}
+
+.work2 {
+
+}
+
+.work2 h3 {
+
+}
+
+.work2 p {
+    
+}
+
+.work3 {
+
+}
+
+.work3 h3 {
+
+}
+
+.work3 p {
+    
+}
+
+.work4 {
+
+}
+
+.work4 h3 {
+
+}
+
+.work4 p {
+    
+}
